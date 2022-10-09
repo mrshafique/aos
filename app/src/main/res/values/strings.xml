@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Shafik Exercise</string>
+
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="welcome_to_trexis">Welcome to Trexis</string>
+    <string name="close">Close</string>
+    <string name="login_success">Login successfully</string>
+    <string name="error_invalid_credentials">Please enter valid credentials</string>
+    <string name="error_empty_field">Field should not be empty</string>
+    <string name="accounts">Accounts</string>
+    <string name="dash">--</string>
+    <string name="name">Name</string>
+    <string name="balance">Balance</string>
+    <string name="retry" tools:ignore="PrivateResource">Retry</string>
+    <string name="exit">Exit</string>
+    <string name="title">Title</string>
+    <string name="dialog_exit_msg">Do you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="two">Two</string>
+    <string name="three">Three</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="logout">Logout</string>
+    <string name="dialog_logout_msg">Do you want to logout?</string>
+    <string name="no_records_found">No records found</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="capture_image_cancelled">Capture Image Cancelled</string>
+    <string name="search_album_artist">Search Album or Artist</string>
+</resources>

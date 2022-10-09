@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard_navigation"
+    app:startDestination="@id/fragSplash">
+
+    <fragment
+        android:id="@+id/fragSplash"
+        android:name="com.aos.shafik.screens.splash.FragSplash"
+        android:label="Splash"
+        tools:layout="@layout/frag_splash" >
+        <action
+            android:id="@+id/action_fragSplash_to_fragDashboard"
+            app:destination="@id/fragDashboard" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragDashboard"
+        android:name="com.aos.shafik.screens.dashboard.FragDashboard"
+        android:label="Dashboard"
+        tools:layout="@layout/frag_dashboard" />
+</navigation>
